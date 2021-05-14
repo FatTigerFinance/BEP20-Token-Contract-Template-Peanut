@@ -1,4 +1,4 @@
-# BEP20-Token-Contract-Template-Peanut
+# BEP20-Token-Contract-Template-FatTiger
 /**
  *Submitted for verification at BscScan.com on 2021-05-14
 */
