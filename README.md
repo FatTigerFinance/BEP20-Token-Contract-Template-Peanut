@@ -49,7 +49,7 @@ contract SafeMath {
 
 /**
 ERC Token Standard #20 Interface
-https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md
+https://github.com/PeanutPeanut1/BEP20-Token-Contract-Template-Peanut
 */
 contract ERC20Interface {
     function totalSupply() public constant returns (uint);
@@ -131,7 +131,7 @@ contract FKCtoken is ERC20Interface, SafeMath {
     // Token owner can approve for spender to transferFrom(...) tokens
     // from the token owner's account
     //
-    // https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md
+    // https://github.com/PeanutPeanut1/BEP20-Token-Contract-Template-Peanut
     // recommends that there are no checks for the approval double-spend attack
     // as this should be implemented in user interfaces 
     // ------------------------------------------------------------------------
