@@ -8,11 +8,11 @@ pragma solidity ^0.4.24;
 // ----------------------------------------------------------------------------
 // Sample token contract
 //
-// Symbol        : FKC
-// Name          : Faker Coin
+// Symbol        : FTF
+// Name          : FatTiger Finance
 // Total supply  : 10000000000000000000
-// Decimals      : 4
-// Owner Account : 0x7546D47271866cae063ce283537E5918705eD379
+// Decimals      : 8
+// Owner Account : 0x940b448cb4bab0c8e569b3474818d9ef0128ea19
 //
 // Enjoy.
 //
