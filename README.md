@@ -1,4 +1,4 @@
-# BEP20-Token-Contract-Template-FatTiger
+# BEP20-Token-Contract-Template-Peanut
 /**
  *Submitted for verification at BscScan.com on 2021-05-14
 */
@@ -10,8 +10,8 @@ pragma solidity ^0.4.24;
 //
 // Symbol        : FTF
 // Name          : FatTiger Finance
-// Total supply  : 10000000000000000000
-// Decimals      : 8
+// Total supply  : 1000000000000000000000000
+// Decimals      : 9
 // Owner Account : 0x940b448cb4bab0c8e569b3474818d9ef0128ea19
 //
 // Enjoy.
@@ -49,7 +49,7 @@ contract SafeMath {
 
 /**
 ERC Token Standard #20 Interface
-https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md
+https://github.com/PeanutPeanut1/BEP20-Token-Contract-Template-Peanut
 */
 contract ERC20Interface {
     function totalSupply() public constant returns (uint);
@@ -75,7 +75,7 @@ contract ApproveAndCallFallBack {
 /**
 ERC20 Token, with the addition of symbol, name and decimals and assisted token transfers
 */
-contract FKCtoken is ERC20Interface, SafeMath {
+contract FTFToken is ERC20Interface, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -91,8 +91,8 @@ contract FKCtoken is ERC20Interface, SafeMath {
     constructor() public {
         symbol = "FTF";
         name = "FatTiger Finance";
-        decimals = 8;
-        _totalSupply = 10000000000000000000;
+        decimals = 9;
+        _totalSupply = 1000000000000000000000000;
         balances[0x940b448cb4bab0c8e569b3474818d9ef0128ea19] = _totalSupply;
         emit Transfer(address(0), 0x940b448cb4bab0c8e569b3474818d9ef0128ea19, _totalSupply);
     }
@@ -131,7 +131,7 @@ contract FKCtoken is ERC20Interface, SafeMath {
     // Token owner can approve for spender to transferFrom(...) tokens
     // from the token owner's account
     //
-    // https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md
+    // https://github.com/PeanutPeanut1/BEP20-Token-Contract-Template-Peanut
     // recommends that there are no checks for the approval double-spend attack
     // as this should be implemented in user interfaces 
     // ------------------------------------------------------------------------
